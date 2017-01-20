@@ -1,52 +1,55 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import '../App.css';
 import Button from 'react-bootstrap/lib/Button';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import Nav from 'react-bootstrap/lib/Nav';
 import NavItem from 'react-bootstrap/lib/NavItem';
-import MenuItem from 'react-bootstrap/lib/MenuItem';
-import NavDropdown from 'react-bootstrap/lib/NavDropdown';
+import Jumbotron from 'react-bootstrap/lib/Jumbotron';
+import Media from 'react-bootstrap/lib/Media';
+import Grid from 'react-bootstrap/lib/Grid';
+import Row from 'react-bootstrap/lib/Row';
+import '../App.css';
 
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar inverse collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#">React-Bootstrap</a>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1} href="#">Link</NavItem>
-              <NavItem eventKey={2} href="#">Link</NavItem>
-              <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Action</MenuItem>
-                <MenuItem eventKey={3.2}>Another action</MenuItem>
-                <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                <MenuItem divider />
-                <MenuItem eventKey={3.3}>Separated link</MenuItem>
-              </NavDropdown>
-            </Nav>
-            <Nav pullRight>
-              <NavItem eventKey={1} href="#">Link Right</NavItem>
-              <NavItem eventKey={2} href="#">Link Right</NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-          <Button className="Button" bsStyle="primary">My Button</Button>
+      <div>
+        <div className="App">
+          <Navbar fixedTop collapseOnSelect>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="#">Muscle Butter</a>
+              </Navbar.Brand>
+              <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+              <Nav pullRight>
+                <NavItem eventKey={1} href="#">Services</NavItem>
+                <NavItem eventKey={2} href="#">Bio</NavItem>
+                <NavItem eventKey={3} href="#">Contact</NavItem>
+                <NavItem eventKey={4} href="#">Book Appointment</NavItem>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Jumbotron>
+            <h1>Release your body's potential with Fascial Therapy</h1>
+            <Button bsStyle="primary">Book Now</Button>
+          </Jumbotron>
+        <Grid>
+          <Row>
+            <Media>
+              <Media.Left align="top">
+
+              </Media.Left>
+              <Media.Body>
+                <Media.Heading>Unlock your body's potential with Muscle Butter</Media.Heading>
+                <p>Our method brings clients to their best potential by integrating healthy movement practices, mindful and therapeutic exercises for recovery and prevention.</p>
+              </Media.Body>
+            </Media>
+          </Row>
+        </Grid>
       </div>
     );
   }

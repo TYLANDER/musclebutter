@@ -1,32 +1,39 @@
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+.jumbotron {
+  margin-top: 50px;
+  background: url('./assets/runner_hero@2x.png') no-repeat;
+  background-size: contain;
+  height: 800px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+
+
+.jumbotron h1 {
+  width: 400px;
+  font-family: 'Caveat', cursive;
 }
 
-.App-intro {
-  font-size: large;
+
+.navbar.brand{
+  background-image: url('./assets/Musclebutter_144x144@2x.png');
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
 
-.Button {
-  padding: 2em;
-  margin-top: 300px;
-  height: 72px;
-  width: 144px;
-  background-color: #fffaaa;
+button.btn.btn-primary {
+  background: transparent;
+  color: #4A4A4A;
+  text-shadow: 0 0px 0 rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  width: 170px;
+  height: 50px;
+  border-color: #93C4D7;
+  border-width: 2px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
 }
