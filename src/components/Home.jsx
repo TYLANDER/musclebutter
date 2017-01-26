@@ -1,42 +1,20 @@
-import React, { Component } from 'react';
-import Button from 'react-bootstrap/lib/Button';
-import Navbar from 'react-bootstrap/lib/Navbar';
-import Nav from 'react-bootstrap/lib/Nav';
-import NavItem from 'react-bootstrap/lib/NavItem';
+import React from 'react';
 import '../App.css';
 import '../styles/normalize.css';
 import '../styles/skeleton.css';
-import '../assets/mainroom.jpg'
+import '../assets/mainroom.jpg';
 
 
 
-class App extends Component {
+var Home = React.createClass({
   render() {
     return (
       <div>
-        <div className="App">
-          <Navbar fixedTop collapseOnSelect>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <a href="#">Muscle Butter</a>
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-            <Navbar.Collapse>
-              <Nav pullRight>
-                <NavItem eventKey={1} href="#">Services</NavItem>
-                <NavItem eventKey={2} href="#">Bio</NavItem>
-                <NavItem eventKey={3} href="#">Contact</NavItem>
-                <NavItem eventKey={4} href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</NavItem>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-        </div>
         <div className="section hero">
          <div className="container">
            <div className="row">
              <div className="seven columns">
-               <h1 className="hero-heading">Release your body's potential with Fascial Therapy</h1>
+               <h1 className="hero-heading">Release your bodys potential with Fascial Therapy</h1>
                  <p className="subhead">Our method brings clients to their best potential by integrating healthy movement practices, mindful and therapeutic exercises for recovery and prevention.</p>
                <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
              </div>
@@ -49,8 +27,6 @@ class App extends Component {
                 <p className="section-description">Shoes, cars, computers, chairs, beds -the inventions of modern man are creature comforts that hinder our natural movement patterns. We are the result of hundereds of thousands of years of evolution. And that time has gotten us to a period where we barely use our bodies the way they were intended. We sit at desks, bash away on computers, and drive everywhere we need to go. Our daily actions imprision our bodies and limit their natual range of motion. Our bodies are responsive to input. Over time they will form to the shapes they encounter on a daily basis. If you don’t improve the way you move, you may lose proper motion forever. Free yourself from your cages.</p>
             </div>
           </div>
-
-
         <div className="section mission">
           <div className="container">
             <h3 className="section-heading">Musclebutter...</h3>
@@ -64,9 +40,9 @@ class App extends Component {
         </div>
         <div className="section natural-movement">
           <div className="container">
-            <img className="yoga-pose"></img>
+            <img className="yoga-pose" alt="fart"></img>
             <h3 className="section-heading">Natural Movement & Posture Training</h3>
-            <p className="section-description">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art letterpress hoodie occupy Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeney's seitan 3 wolf moon drinking vinegar sartorial pour-over messenger bag photo booth umami next level craft beer. Tote bag 8-bit flannel dreamcatcher photo booth. Tofu photo booth American Apparel, cliche brunch swag freegan lomo retro cray Vice.</p>
+            <p className="section-description">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art letterpress hoodie occupy Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeneys seitan 3 wolf moon drinking vinegar sartorial pour-over messenger bag photo booth umami next level craft beer. Tote bag 8-bit flannel dreamcatcher photo booth. Tofu photo booth American Apparel, cliche brunch swag freegan lomo retro cray Vice.</p>
           </div>
         </div>
         <div className="section the-fascia">
@@ -83,10 +59,9 @@ class App extends Component {
               <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
           </div>
         </div>
-        <div className="section"></div>
       </div>
-    );
+    )
   }
-}
+});
 
-export default App;
+export default Home;
