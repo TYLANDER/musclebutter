@@ -10,7 +10,7 @@ import Services from './components/Services';
 
 
 
-// Load skeleton
+// Load skeleton?
 
 
 
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Router history={browserHistory}>
       <Route path="/" component={Main}>
         <IndexRoute component={Home} />
-        <Route path="services" component={Services} />
+        <Route path="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external#services" component={Services}/>
         <Route path="bio" component={Bio} />
         <Route path="contact" component={Contact} />
       </Route>

@@ -16,16 +16,16 @@ class Navigation extends React.Component {
         <Navbar fixedTop collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Muscle Butter</a>
+              <a href="/">Muscle Butter</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-                <Link to='/services' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Services</Link>
+                <a href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external#services">Services</a>
                 <Link to='/bio' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Bio</Link>
                 <Link to='/contact' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Contact</Link>
-              <a href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
+              <a href="https://www.massagebook.com/profiles/publicBooking/1545497?src=external">Book Now</a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

@@ -40,7 +40,6 @@ var Home = React.createClass({
         </div>
         <div className="section natural-movement">
           <div className="container">
-            <img className="yoga-pose" alt="fart"></img>
             <h3 className="section-heading">Natural Movement & Posture Training</h3>
             <p className="section-description">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art letterpress hoodie occupy Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeneys seitan 3 wolf moon drinking vinegar sartorial pour-over messenger bag photo booth umami next level craft beer. Tote bag 8-bit flannel dreamcatcher photo booth. Tofu photo booth American Apparel, cliche brunch swag freegan lomo retro cray Vice.</p>
           </div>

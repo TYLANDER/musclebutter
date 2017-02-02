@@ -1,0 +1,10 @@
+.alex-profile {
+  background-image: url(../assets/Alex_profile_160705.png);
+  background-size: cover;
+  color: #4f4f4f;
+  height: 10rem;
+}
+
+.alexheader {
+  padding-top: 5rem;
+}

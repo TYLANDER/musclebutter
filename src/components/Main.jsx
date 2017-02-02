@@ -3,7 +3,7 @@ import Navigation from './Navigation'
 import '../App.css';
 import '../styles/normalize.css';
 import '../styles/skeleton.css';
-import '../assets/mainroom.jpg'
+import '../assets/mainroom.jpg';
 
 var Main = React.createClass({
   render: function() {

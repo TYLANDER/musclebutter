@@ -9,6 +9,8 @@
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.2",
+    "react-google-maps": "^6.0.1",
+    "react-native-web": "0.0.69",
     "react-router": "^2.8.1"
   },
   "scripts": {
