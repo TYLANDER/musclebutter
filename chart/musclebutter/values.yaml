@@ -34,6 +34,8 @@ ingress:
   enabled: true
   secretName: "musclebutter-tls"
   domains:
+    - "myofascialpaincentersf.com"
+    - "www.myofascialpaincentersf.com"
     - "themusclebutter.com"
     - "www.themusclebutter.com"
   annotations:
