@@ -14,13 +14,14 @@ var Home = React.createClass({
          <div className="container">
            <div className="row">
              <div className="seven columns">
-               <h1 className="hero-heading">Release your bodys potential with Fascial Therapy</h1>
-                 <p className="subhead">Our method brings clients to their best potential by integrating healthy movement practices, mindful and therapeutic exercises for recovery and prevention.</p>
+               <h1 className="hero-heading">Our website is launching soon. </h1>
+                 <p className="subhead">In the meantime, we are still accepting bookings.</p>
                <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
              </div>
            </div>
          </div>
         </div>
+      /*
         <div className="section cages">
           <div className="container">
                 <h3 className="section-heading">Your body lives in cages</h3>
@@ -38,13 +39,13 @@ var Home = React.createClass({
             </div>
           </div>
         </div>
-        /*
+
         <div className="section natural-movement">
           <div className="container">
             <h3 className="section-heading">Natural Movement & Posture Training</h3>
             <p className="section-description">Keytar McSweeney's Williamsburg, readymade leggings try-hard 90's street art letterpress hoodie occupy Wes Anderson Banksy. Asymmetrical viral letterpress, McSweeneys seitan 3 wolf moon drinking vinegar sartorial pour-over messenger bag photo booth umami next level craft beer. Tote bag 8-bit flannel dreamcatcher photo booth. Tofu photo booth American Apparel, cliche brunch swag freegan lomo retro cray Vice.</p>
           </div>
-        </div> */
+        </div>
         <div className="section the-fascia">
           <div className="container">
             <h3 className="section-heading">The Fascia</h3>
@@ -59,6 +60,7 @@ var Home = React.createClass({
               <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
           </div>
         </div>
+        */
       </div>
     )
   }
