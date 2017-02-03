@@ -21,7 +21,7 @@ var Home = React.createClass({
            </div>
          </div>
         </div>
-      /*
+
         <div className="section cages">
           <div className="container">
                 <h3 className="section-heading">Your body lives in cages</h3>
@@ -60,8 +60,8 @@ var Home = React.createClass({
               <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
           </div>
         </div>
-        */
       </div>
+    </div>
     )
   }
 });
