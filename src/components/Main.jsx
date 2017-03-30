@@ -9,8 +9,17 @@ var Main = React.createClass({
   render: function() {
   return (
     <div>
-      <Navigation/>
-            {this.props.children}
+      <div>
+        <Navigation/>
+              {this.props.children}
+      </div>
+      <div className="row">
+        <div className="container">
+          <div id="hline">
+            <p id="footer">©Musclebutter 2017. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

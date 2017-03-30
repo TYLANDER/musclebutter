@@ -5,33 +5,44 @@ import '../styles/skeleton.css';
 import '../styles/bio.css';
 import '../assets/Alex_profile_160705.png';
 
+
 var Bio = React.createClass({
     render() {
       return (
         <div>
-        <div className="container">
-          <div className="section">
+          <div className="section bio">
+            <div className="container ">
             <div className="row alexheader">
-              <div className="one-half column">
-                  <img className="u-max-full-width" src={require('../assets/Alex_profile_160705.png')} alt="Smiley Face"/>
+              <div className="six columns">
+                <img className="u-full-width shadow" src={require('../assets/alex_profile_1x1_170210_005.png')} alt="Smiley Face"/>
               </div>
-              <div className="one-half column">
-                <h4 id="musclequote">"It's not the load that breaks you down, it's the way you carry it." -Lou Holtz</h4>
+              <div className="six columns">
+                <h5 className="musclequote"><em>"It's not the load that breaks you down, it's the way you carry it." -Lou Holtz</em></h5>
               </div>
             </div>
             </div>
-            <div className="section" style={{height: "5rem"}}/>
             <div className="section">
-            <div className="row">
-              <h3 className="section-heading bioheader">About Alex Schmidt-Owner and Head Practitioner</h3>
-              <p className="section-description">Alex resides in San Francisco and has been a clinical bodywork practicioner for the past 10 years. Her dedication to technique, the study of the human body and its fascial network, and faith in its ability to heal make Her one of the most sought after manual therapists in SF. Her integration with breath, movement, and core function are key features that quickly move her clients from the acute state to the healing phase</p>
-              <p className="section-description">Alex has played a key role in the healing process for clients experienceing sciatica, plantar fasciitis, migarnes, sports-related injuries, arthritis, nerve entrapment, repetitive strain injuries, spinal pain, joint pain, posture related pain, surgical recovery, and trauma recovery. Her down-to-earth educational sessions are labs for self-recovery, accecptance, and require a desire for pisitive change.</p>
-              <p className="section-description">Outside of the office she is connecting with San Francisco's small business community, massage therapy students, running trails, practicing yoga, and weight training.</p>
-              <p className="section-description"> Alex is a member of the Fascia Research Congress and the Academy of Integrative Pain Management. She is certified through the California Massage Therapy Council, a Stott Pilates Instructor, and a CHEK exercise coach.</p>
-              <h3 className="section-heading">Muscle Butter...</h3>
-              <p className="section-description">is a clinical bodywork and movement sudio dedicated to the highest quality massage technique for natural pain mangement and recovery. We offer manual therapy services, self car learning services, and corrective exercise services.</p>
-              <p className="section-description">Our space has two treatment rooms: one for bodywork and massage, and another dedicated to health movement and corrective exercise.</p>
-            </div>
+              <div className="container">
+                <div className="row">
+                  <h3 className="section-heading">Head Practitioner Alex Schmidt</h3>
+                  <p className="section-description">lives in San Francisco, CA and has been practicing clinical bodywork for the last 10
+                    years. Her dedication to technique, the study of the human body and its fascial network, and
+                    faith in its ability to heal make her one of the most sought after manual therapists in SF.
+                    Her integration with breath, movement, and core function are key features that quickly move her
+                    clients from acute pain states to the healing phase. </p>
+                  <p className="section-description">Alex has played a key role in the healing process for clients experiencing sciatica, plantar
+                    fasciitis, migraines, sports related injuries, arthritis, nerve entrapment, repetitive strain injuries,
+                    spinal pain, joint pain, posture related pain, surgical recovery, and trauma recovery.
+                    Her down-to-earth and educational sessions are labs for self discovery, acceptance, and require
+                    a desire for positive change. </p>
+                  <p className="section-description">Outside of the office she’s connecting with San Francisco’s small business community,
+                    connecting with massage therapy students, running and trekking trails, practicing yoga, and
+                    weight training.</p>
+                  <p className="section-description">Alex is a member of the Fascia Research Congress and the Academy of Integrative Pain
+                    Management. She is certified through the California Massage Therapy Council, a Stott Pilates
+                    instructor, and a CHEK exercise coach.</p>
+                </div>
+              </div>
           </div>
         </div>
       </div>

@@ -55,7 +55,7 @@
   padding-bottom: 30rem;
   padding-top: 40px;
   margin-top: 40px;
-  height: 600px;
+  height: 620px;
 }
 
 /* For devices larger than 400px */
@@ -85,14 +85,13 @@
 
 
 
-.cages {
 
-}
+
 
 
 @media (min-width: 750px){
 .section-description {
-    max-width: 67%;
+    max-width: 72%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -102,7 +101,7 @@
 @media (min-width: 750px){
 .section-heading {
   text-align: left;
-  max-width:67%;
+  max-width:72%;
   margin-left: auto;
   margin-right: auto;
   }
@@ -133,8 +132,41 @@
 
 }
 
-#musclequote {
-  padding-top: 40px;
+@media (min-width: 750px){
+.alexheader {
+  text-align: left;
+  max-width:72%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+.shadow {
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+}
+
+#hline {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+  margin-top: 3em;
+}
+
+#footer {
+  padding-top: 1em;
+  border-top: 2px;
+  height: $footer-height;
+  background-color: white;
+  font-size: $small-font-size;
+  transparentize: ($text-color, .4);
+}
+
+
+.musclequote {
+margin-top: 9rem;
+text-align: left;
 
 }
 

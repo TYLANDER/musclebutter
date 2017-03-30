@@ -1118,8 +1118,9 @@ select[multiple].input-lg {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: rgba(248, 248, 248, .9)
   border-color: #e7e7e7;
+  opacity: 0.7;
 }
 .navbar-default .navbar-brand {
   color: #777777;
