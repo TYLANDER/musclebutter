@@ -15,7 +15,7 @@ var Home = React.createClass({
          <div className="container">
            <div className="row">
              <div className="seven columns">
-               <h2 className="hero-heading">Release your body's potential with Fascial Therapy</h2>
+               <h2 className="hero-heading">Find your potential with Fascial Therapy</h2>
                <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
              </div>
            </div>

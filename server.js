@@ -13,6 +13,9 @@ const PORT = process.env.PORT || 3000;
 // });
 
 app.use(express.static('build'));
+app.use(function (req, res) {
+  res.redirect("https://themusclebutter.com/");
+});
 
 app.listen(PORT, function () {
   console.log('Express server is up on port ' + PORT);
