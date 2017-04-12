@@ -28,7 +28,7 @@ var Home = React.createClass({
              <p className="section-description">...is a state of equilibrium between strength-stability and fluidity-flexibility. A healthy, self regulated
                myofascial system. In this state your body is able to do most things you want it to do without
                pain or restriction-within reason and enough practice. Modern day demands have helped us
-               gain incredible technology but loose touch with our body’s innate abilities and potential. We
+               gain incredible technology but lose touch with our body’s innate abilities and potential. We
                named our business Muscle Butter marking an ideal state of being for ourselves and others.</p>
              <p className="section-description">We are a clinical bodywork and movement studio dedicated to the highest quality manual
                techniques for myofascial pain management and recovery. We offer manual therapy services,
