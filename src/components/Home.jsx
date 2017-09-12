@@ -15,7 +15,7 @@ var Home = React.createClass({
          <div className="container">
            <div className="row">
              <div className="seven columns">
-               <h2 className="hero-heading">Find your potential with Fascial Therapy</h2>
+               <h2 className="hero-heading">Find your potential with manual therapy</h2>
                <a className="button button-primary" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external">Book Now</a>
              </div>
            </div>
@@ -24,17 +24,14 @@ var Home = React.createClass({
        <div className="section definition">
          <div className="container">
            <div className="row">
-             <h3 className="section-heading">Muscle Butter</h3>
-             <p className="section-description">...is a state of equilibrium between strength-stability and fluidity-flexibility. A healthy, self regulated
-               myofascial system. In this state your body is able to do most things you want it to do without
-               pain or restriction-within reason and enough practice. Modern day demands have helped us
-               gain incredible technology but lose touch with our body’s innate abilities and potential. We
-               named our business Muscle Butter marking an ideal state of being for ourselves and others.</p>
-             <p className="section-description">We are a clinical bodywork and movement studio dedicated to the highest quality manual
-               techniques for myofascial pain management and recovery. We offer manual therapy services,
-               self care classes, and corrective exercise training.
-               Our space has two treatment rooms: one dedicated to manual therapies and another to creative
-               movement and corrective exercise.</p>
+             <h3 className="section-heading">Muscle Butter defined…</h3>
+             <p className="section-description">A state of equilibrium between strength-stability and fluidity-flexibility.
+               Today’s technology has helped us gain incredible intellect and new information, but our potential to connect with
+               our body’s grace and innate awareness is waning.</p>
+             <p className="section-description">At Muscle Butter, we assist in reclaiming areas of the body lost to postural habits, pain,
+                tension, and trauma through massage and movement re-education.
+                Our studio is a large bright space dedicated to one individual at a time.
+                Services include manual therapy sessions, self care classes, and core integration training sessions.</p>
              </div>
            </div>
            <div className="container">
@@ -69,6 +66,7 @@ var Home = React.createClass({
               <div className="container">
                 <div className="row">
                   <img className="u-full-width" src={require('../assets/movement_therapy_16x9.png')} alt="Smiley Face"/>
+                  <h5 className="musclequote"><em>“The mysteries of the soul are revealed in the movements of the body”-Michelangelo</em></h5>
                 </div>
               </div>
           </div>
