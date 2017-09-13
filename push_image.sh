@@ -1,8 +1,8 @@
 #!/bin/bash
 
 push_image () {
-  docker build -t gcr.io/jackzampolin-web/musclebutter:latest . 
-  gcloud docker push gcr.io/jackzampolin-web/musclebutter:latest  
+  docker build -t gcr.io/jackzampolin-web/musclebutter:latest .
+  gcloud docker -- push gcr.io/jackzampolin-web/musclebutter:latest
 }
 
 roll_pods () {
