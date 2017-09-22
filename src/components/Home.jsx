@@ -38,7 +38,7 @@ var Home = React.createClass({
          <div className="section caged-bodies">
            <div className="container">
              <div className="row">
-                 <img className="u-full-width" src={require('../assets/Alex_Therapy_Table_16x9.png')} alt="Smiley Face"/>
+                 <img className="u-full-width" src={require('../assets/muscle_butter_170210_153.jpg')} alt="Smiley Face"/>
              </div>
              <div className="row">
                  <h5 className="musclequote"><em>“The mysteries of the soul are revealed in the movements of the body”-Michelangelo</em></h5>
