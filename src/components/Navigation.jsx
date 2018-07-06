@@ -1,38 +1,38 @@
-var React = require('react');
-var {Link} = require('react-router');
-import Navbar from 'react-bootstrap/lib/Navbar';
-import Nav from 'react-bootstrap/lib/Nav';
-import '../App.css';
-import '../styles/normalize.css';
-import '../styles/skeleton.css';
-import '../assets/mainroom.jpg';
+/* eslint-disable */
 
+import React from 'react'
+import tachyons from 'tachyons'
 
-class Navigation extends React.Component {
-  render() {
-  return (
-    <div>
-      <div className="App">
-        <Navbar fixedTop collapseOnSelect>
-          <Navbar.Header>
-            <Navbar.Brand>
-              <a href="/">Muscle Butter</a>
-            </Navbar.Brand>
-            <Navbar.Toggle />
-          </Navbar.Header>
-          <Navbar.Collapse>
-            <Nav pullRight>
-                <a href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external#services">Services</a>
-                <Link to='/bio' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Bio</Link>
-                <Link to='/contact' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Contact</Link>
-              <a href="https://www.massagebook.com/profiles/publicBooking/1545497?src=external">Book Now</a>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+export default() => (<header className="headroom self-start w-100 z-max headroom--top headroom--not-bottom">
+  <div className="mw9 pa2 ph5">
+    <div className="cf">
+
+      <div className=" w-100 w-80-ns pl2-ns pt2 pt0-ns">
+
+        <ul className="dib list w-100 pa0 ma0 pt1 mt2">
+          <li className="w-20-ns  mb1 mr3 f2 fw4 pa0 pt3 pt0-ns ttu tracked" style={{
+              color: 'linear-gradient(135deg, #1eaedb, #8AC6DE)'
+            }}>
+            <a href="/">
+              Musclebutter
+            </a>
+          </li>
+
+          <li className="dib dim mb1 mr3 mr4-ns f3 f3-ns fw4 tr-ns dark-gray">
+            <a className=" tracked link near-black hover-light-blue no-underline" href="/bio/">Bio</a>
+          </li>
+          <li className="dib dim mb1 mr3 mr4-ns f3 f3-ns fw4 tr-ns dark-gray">
+            <a className=" tracked link near-black hover-light-blue:focus no-underline" href="https://www.massagebook.com/San_Francisco~Massage~MuscleButter?src=external#services">Services</a>
+          </li>
+          <li className="dib dim mb1 mr3 mr4-ns f3 f3-ns fw4 tr-ns dark-gray">
+            <a className=" tracked link near-black hover-light-blue:focus no-underline" href="/contact/">Contact</a>
+          </li>
+          <li className="dib dim mb1 f3 f3-ns fw4 tr-ns dark-gray">
+            <a className=" tracked link near-black hover-light-blue:focus no-underline" href="https://www.massagebook.com/profiles/publicBooking/1545497?src=external">Book Now</a>
+          </li>
+
+        </ul>
       </div>
     </div>
-    );
-  }
-};
-
-export default Navigation;
+  </div>
+</header>)
