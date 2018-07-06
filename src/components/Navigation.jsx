@@ -7,7 +7,7 @@ export default() => (<header className="headroom self-start w-100 z-max headroom
   <div className="mw9 pa2 ph5">
     <div className="cf">
 
-      <div className=" w-100 w-80-ns pl2-ns pt2 pt0-ns">
+      <div className=" w-100 w-80-ns pl2-ns pt2  pt0-ns">
 
         <ul className="dib list w-100 pa0 ma0 pt1 mt2">
           <li className="w-20-ns  mb1 mr3 f2 fw4 pa0 pt3 pt0-ns ttu tracked" style={{
