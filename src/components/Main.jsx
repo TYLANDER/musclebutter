@@ -1,17 +1,17 @@
-var React = require('react');
+import React from 'react'
 import Navigation from './Navigation'
 import '../App.css';
 import '../styles/normalize.css';
 import '../styles/skeleton.css';
 import '../assets/mainroom.jpg';
 
-var Main = React.createClass({
+var createReactClass = require('create-react-class');
+
+var Main = createReactClass({
   render: function() {
-  return (
-    <div>
+    return (<div>
       <div>
-        <Navigation/>
-              {this.props.children}
+        <Navigation/> {this.props.children}
       </div>
       <div className="row">
         <div className="container">
@@ -20,9 +20,8 @@ var Main = React.createClass({
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+    </div>);
+  }
 });
 
 export default Main;

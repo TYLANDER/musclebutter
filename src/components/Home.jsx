@@ -1,13 +1,14 @@
 import React from 'react';
+import {ResponsiveImage, ResponsiveImageSize} from 'react-responsive-image';
 import '../App.css';
 import '../styles/normalize.css';
 import '../styles/skeleton.css';
 import '../assets/mainroom.jpg';
 import '../assets/fascia_muscle_butter_170210_136.jpg';
-// eslint-disable-next-line
-import tachyons from 'tachyons';
 
-var Home = React.createClass({
+var createReactClass = require('create-react-class');
+
+var Home = createReactClass({
   render() {
     return (<div>
       <div className="section hero">
@@ -29,11 +30,14 @@ var Home = React.createClass({
           </div>
         </div>
       </div>
+      <ResponsiveImage>
+        <ResponsiveImageSize default="default" minWidth={0} path={'../assets/muscle_butter_170210_153.jpg'}/>
+        <ResponsiveImageSize minWidth={768} path={'../assets/muscle_butter_170210_153.jpg'}/>
+        <ResponsiveImageSize minWidth={1100} path={'../assets/muscle_butter_170210_153.jpg'}/>
+      </ResponsiveImage>
       <div className="section caged-bodies">
         <div className="container">
-          <div className="row">
-            <img className="coverimage" src={require('../assets/muscle_butter_170210_153.jpg')} alt="Smiley Face"/>
-          </div>
+          <div className="row"></div>
           <div className="row">
             <h5 className="musclequote">
               <em>“The mysteries of the soul are revealed in the movements of the body”-Michelangelo</em>
